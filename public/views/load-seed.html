@@ -1,0 +1,18 @@
+<table class="table table-condensed table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Width</th>
+            <th>Height</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="seed in ngDialogData | orderBy:'width' | orderBy: 'name'"
+            ng-click="load(seed.id)"
+            class="clickable-row">
+            <td>{{seed.name}}</td>
+            <td>{{seed.width}}</td>
+            <td>{{seed.height}}</td>
+        </tr>
+    </tbody>
+</table>

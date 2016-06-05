@@ -1,0 +1,72 @@
+.top-actions {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.bottom-actions {
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    height: 15px;
+    display: table-row;
+}
+
+.col {
+    display: table-cell;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.col:last-child {
+    border-right: 1px solid black;
+}
+
+.row:last-child .col {
+    border-bottom: 1px solid black;
+}
+.dead {
+    background-color: #ccc;
+}
+.alive {
+    background-color: #226622;
+}
+
+.board {
+    margin-bottom: 20px;
+    margin-left:200px;
+}
+h1 {
+    color: #fff;
+}
+.aside{
+    position: fixed;
+    width:180px;
+}
+.save {
+    margin-bottom: 5px;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #2c3e50;
+}
+td {
+    color: #18bc9c;
+}
+a {
+    text-decoration: none !important;
+}
+.clickable-row {
+    cursor: pointer;
+}
